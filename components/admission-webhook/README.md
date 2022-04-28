@@ -78,7 +78,7 @@ This specifies
 
 ### Webhook implementation
 The webhook should be a server that can handle request coming from the configured path (`/add-cred` in the above).
-The request and response types are both [AdmissionReview](https://godoc.org/k8s.io/api/admission/v1beta1#AdmissionReview)
+The request and response types are both [AdmissionReview](https://godoc.org/k8s.io/api/admission/v1#AdmissionReview)
 
 ## Reference
 1. [K8S PodPreset](https://v1-19.docs.kubernetes.io/docs/concepts/workloads/pods/podpreset/)
